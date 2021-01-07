@@ -2,7 +2,7 @@
 <div class="container-fuild">
   <div class="row">
     <div class="col-sm-12">
-      <h1>{{'Test your domains health!'|translate}}</h1>
+      <h1>{{'Check Domain name'|translate}}</h1>
     </div>
   </div>
   <div class="row mb-1">
@@ -18,7 +18,7 @@
                    name="domain_check_name"
                    [(ngModel)]="form.domain"
                    (keypress)="($event.which === 13)? runDomainCheck() : 0"
-                   placeholder="{{'Enter Domain Name'|translate}}"
+                   placeholder="{{'Domain name'|translate}}"
                    required>
 
               <p class="reset-form d-none d-sm-block" *ngIf="form.domain.length > 0 && !showProgressBar" >

@@ -11,6 +11,7 @@
 	"Digests": "Délégation du Signataire (enregistrement DS)",
 	"Domain check": "Test d'un domaine",
 	"Domain checked completed": "Vérification du nom de domaine terminée.",
+	"Check Domain name": "Vérifiez le nom de domaine!",
 	"Domain name": "Nom de domaine",
 	"Domain name required": "Nom de domaine requis",
 	"Error during parent data fetching": "Erreur lors de la récupération des données parentes.",

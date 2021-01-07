@@ -11,6 +11,7 @@
 	"Digests": "Delegation Signers (DS records)",
 	"Domain check": "Domain check",
 	"Domain checked completed": "Domain checked completed",
+	"Check Domain name": "Check domain name!",
 	"Domain name": "Domain name",
 	"Domain name required": "Domain name required",
 	"Error during parent data fetching": "Error during parent data fetching",

@@ -11,6 +11,7 @@
 	"Digests": "Delegation Signers (DS-poster)",
 	"Domain check": "Domäntest",
 	"Domain checked completed": "Domäntestet slutfördes",
+	"Check Domain name": "Kontrollera domännamn!",
 	"Domain name": "Domännamn",
 	"Domain name required": "Domännamn måste anges",
 	"Error during parent data fetching": "Fel när data skulle hämtas från moderzonen",

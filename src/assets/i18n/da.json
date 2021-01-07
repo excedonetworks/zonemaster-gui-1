@@ -11,6 +11,7 @@
 	"Digests": "Delegation Signers (DS-records)",
 	"Domain check": "Domænetjek",
 	"Domain checked completed": "Testen af domænenavnet er fuldført",
+	"Check Domain name": "Tjek domænenavn!",
 	"Domain name": "Domænenavn",
 	"Domain name required": "Domænenavn skal angives",
 	"Error during parent data fetching": "Data fra forælder kunne ikke hentes",
