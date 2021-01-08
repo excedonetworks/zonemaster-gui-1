@@ -1,0 +1,47 @@
+.main-form-container{
+    background-color: #fff;
+    box-shadow: 0 10px 15px rgba(0,0,0,.3);
+    border-radius: 10px;
+    margin: 0 auto 3rem;
+    max-width: 895px;
+    padding: 40px; 
+    position: relative;
+    z-index: 2;
+    text-align: center;
+  
+  }
+  .main-form-container #contact_form {
+    background-color: #fff;
+    /* border: 2px solid #db6b1a; */
+    border-radius: 30px;   
+    font-weight: 300; 
+    overflow: hidden;
+    height: 50px;
+    width: 100%;
+    padding-right: 45px;
+  }
+  button {
+    display: inline-block;
+    font-weight: 400;
+    vertical-align: middle;
+    padding: .5rem 1rem;
+    font-size: 1.25rem;
+    margin-top: 1rem;
+  
+  }
+  
+  @media (max-width:767px){
+    .main-form-container{ padding: 20px;}
+    .main-form-container .form-ckeck-group { flex: inherit; width: 100%;margin-bottom: 15px;}
+    button.launch{width: 100%; margin-left: 0 !important;}  
+    .custom-row input,
+    .custom-row select,
+    .sm-full-width{ width:100%;}
+    .custom-row .form-control{ margin-left: 0; margin-bottom: 10px;}
+    .four-component input,
+    .four-component select {max-width: 100%;}
+    .sm-full-width .btn-danger-custom{ margin: 0;}
+    .sm-full-width .btn-success-custom,
+    .resetFullForm{ float: right;} 
+  
+  }

@@ -1,0 +1,31 @@
+<app-header>
+    <h1>FAQ</h1>
+  </app-header>
+  <div class="main-form-container ">
+      <h1>Say Hello</h1>
+      <div *ngIf="runGetHelp">
+        Contact form accepeted
+      </div>
+    <form action="">
+        <label for="Email"></label>
+        <input type="text"
+                   class="form-control form-control-lg"
+                   name="contact_form"
+                   placeholder="{{'Contact email'|translate}}"
+                   required>
+
+        <label for="Message"></label>
+        <input type="text"
+                  class="form-control form-control-lg"
+                  name="contact_form"
+                  placeholder="{{'Message'|translate}}"
+                  required>
+    </form>
+    <button title="{{'Contact me'|translate}}"
+                      (click)="runGetHelp();"
+                      type="button">
+                Contact me
+    </button>
+    
+    
+  </div>

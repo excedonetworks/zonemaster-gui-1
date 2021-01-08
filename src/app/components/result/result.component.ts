@@ -169,6 +169,10 @@ $
       this.openModal(this.historyModal);
     }
   }
+  public getHelp() {
+    // this.router.navigate(['/contact']);
+    console.log('get help clicked');
+  }
 
   public exportJson() {
     const blob = new Blob([JSON.stringify(this.result)], {

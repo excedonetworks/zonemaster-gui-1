@@ -36,6 +36,7 @@ import 'moment/locale/da';
 
 import { HttpRequestInterceptor } from './interceptors/request.interceptor';
 import { HttpMockRequestInterceptor } from './interceptors/mock.interceptor';
+import { ContactComponent } from './components/contact/contact.component';
 
 export const isMock = environment.mock;
 
@@ -50,6 +51,7 @@ const appRoutes: Routes = [
   { path: 'test/:resultID', component: ResultComponent, data: [{directAccess: true}]},
   { path: 'history', component: HistoryComponent},
   { path: 'faq', component: FaqComponent },
+  // { path: 'contact', component: ContactComponent },
   { path: '',
     redirectTo: 'domain_check',
     pathMatch: 'full'
@@ -73,7 +75,8 @@ const appRoutes: Routes = [
     ResultComponent,
     HistoryComponent,
     AlertComponent,
-    HeaderComponent
+    HeaderComponent,
+    ContactComponent,
   ],
   imports: [
     BrowserModule,
