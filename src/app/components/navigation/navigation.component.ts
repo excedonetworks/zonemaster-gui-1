@@ -12,7 +12,7 @@ export class NavigationComponent implements OnInit {
   public isNavbarCollapsed = false;
   public isShrunk = false;
   public activeBackToTop = false;
-  public lang = 'en';
+  public lang = 'sv';
 
   constructor(private translateService: TranslateService, zone: NgZone) {
     this.translateService.setDefaultLang(this.lang);
