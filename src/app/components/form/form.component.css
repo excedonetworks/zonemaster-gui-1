@@ -183,6 +183,10 @@ button.launch:hover {
   color: grey;
 }
 
+::ng-deep .progress-bar {
+  background-color: #db6b1a !important;
+}
+
 
 .progress-value {
   display: block;
