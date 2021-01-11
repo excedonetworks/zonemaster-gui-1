@@ -169,7 +169,6 @@ tr.result.WARNING td:nth-child(4):after,
   background-color:#e0d20e;
 }
 tr.result.WARNING td:nth-child(3){
-  color:#000000;
   font-weight: 700;
 }
 
