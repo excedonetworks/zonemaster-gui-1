@@ -40,9 +40,11 @@ Zonemaster är ett samarbetsprojekt mellan Internetstiftelsen (registry för .se
 #### 3. Hur kan Excedo Zonemaster hjälpa mig? <a name="q3"></a>
 
 Excedo Zonemaster är framtaget för två kategorier av användare:
-    • Användare med DNS-kunskap.
-    • Användare som bara vill veta om domäner som hen äger eller använder har några problem eller inte.
 
+  - Användare med DNS-kunskap.
+  - Användare som bara vill veta om domäner som hen äger eller 
+    använder har några problem eller inte.
+    
 Användare av den andra kategorin bör vända sig till sin DNS-operatör så fort något inte lyser "grönt" vid en test.
 
 #### 4. Excedo Zonemaster visar "Fel"/"Varning" när jag testar min domän, vad betyder det? <a name="q4"></a>

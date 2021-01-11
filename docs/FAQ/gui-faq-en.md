@@ -18,7 +18,7 @@ Excedo Zonemaster FAQ
 Excedo Zonemaster
 ----------
 #### 1. What is Excedo Zonemaster? <a name="q1"></a>
-Zonemaster is a program that was designed to help people check, measure and hopefully also understand how DNS (Domain Name System) works.
+Excedo Zonemaster is a program that was designed to help people check, measure and hopefully also understand how DNS (Domain Name System) works.
 
 It consists of four basic parts:
 
@@ -30,8 +30,8 @@ It consists of four basic parts:
 
 When a domain (such as "zonemaster.net") is submitted to Excedo Zonemaster (CLI or GUI) it will investigate the domain’s general health by traversing the DNS from root (.) via the TLD (Top Level Domain, like .net) to the nameserver(s) that hosts the information about the specific domain (zonemaster.net). Different sanity checks is also conducted by the Excedo Zonemaster.
 
-#### 2. Who is behind Zonemaster? <a name="q2"></a>
-Zonemaster is a joint project between Afnic (registry operator of .fr TLD and several other TLDs, e.g. .re, .pm, .tf, .wf, .yt and .paris) and The Swedish Internet Foundation (registry operator of .se and .nu TLDs). Excedo Networks AB has decided to launch our own special version of Zonemaster under the name Excedo Zonemaster.
+#### 2. Who is behind Excedo Zonemaster? <a name="q2"></a>
+Excedo Zonemaster is a joint project between Afnic (registry operator of .fr TLD and several other TLDs, e.g. .re, .pm, .tf, .wf, .yt and .paris) and The Swedish Internet Foundation (registry operator of .se and .nu TLDs). Excedo Networks AB has decided to launch our own special version of Excedo Zonemaster under the name Excedo Zonemaster.
 
 #### 3. How can Excedo Zonemaster help me? <a name="q3"></a>
 The Excedo Zonemaster tool is oriented towards two user categories:
