@@ -33,7 +33,7 @@ När en domän (även kallad zon) skickas till Excedo Zonemaster så kommer prog
 
 När en domän (även kallad zon) skickas till Excedo Zonemaster så kommer programmet att undersöka domänens hälsotillstånd genom att gå igenom DNS från roten (.) till TLD:n (toppdomänen, till exempel .NET) och till slut de DNS-servrar som innehåller information om den specificerade domänen (till exempel excedonet.net). Excedo Zonemaster utför även en hel del andra tester.
 
-#### 2. Vem står bakom Excedo Zonemaster? <a name="q2"></a>
+#### 2. Vem står bakom Zonemaster? <a name="q2"></a>
 
 Zonemaster är ett samarbetsprojekt mellan Internetstiftelsen (registry för .se och .nu) och AFNIC (registry för .fr och andra TLD:er som .re, .pm, .tf, .wf, .yt samt .paris). Excedo Networks AB har valt att lansera en egen specialversion av Zonemaster under namnet Excedo Zonemaster.
 
