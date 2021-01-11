@@ -51,13 +51,13 @@ Användare av den andra kategorin bör vända sig till sin DNS-operatör så for
 
 Det beror på vilket test det gäller.
 
-#### 5. Hur kan Excedo Zonemaster bedömma vad som är rätt och fel? <a name="q5"></a>
+#### 5. Hur kan Excedo Zonemaster bedöma vad som är rätt och fel? <a name="q5"></a>
 
 Ingen kan ge ett definitivt, slutgiltigt utlåtande om en domäns hälsa. Detta är viktigt att poängtera. Vi som står bakom Excedo Zonemaster påstår inte att tjänsten alltid har helt rätt. I vissa fall går åsikter isär, speciellt mellan olika länder, men ibland även lokalt. Vi har tillsammans inom samarbetsprojektet gjort vårt allra bästa att ta fram en så bra som möjligt profil för hur dessa olika fel bedöms innan de presenteras för dig som användare av verktyget.
 
 En fördel för dig som användare är dock att det är enkelt att skapa en egen profil för hur allvarliga vissa fel ska vara, via CLI-verktyget går det att direkt peka ut sin egen profil.
 
-Men eftersom DNS utvecklas hela tiden kan situationer som idag bara kräver en varning räknas som allvarliga fel imorgon. Om du tror du hittat något som du tycker vi felbedömt, tveka då inte att kontakta oss på development@excedo.se med en länk till ditt test och en förklaring av varför du anser att resultatet inte är korrekt. 
+Men eftersom DNS utvecklas hela tiden kan situationer som idag bara kräver en varning räknas som allvarliga fel imorgon. Om du tror du hittat något som du tycker vi felbedömt, tveka då inte att kontakta oss på support@excedo.se med en länk till ditt test och en förklaring av varför du anser att resultatet inte är korrekt. 
 
 #### 6. Kan Excedo Zonemaster hantera IPv6? <a name="q6"></a>
 
