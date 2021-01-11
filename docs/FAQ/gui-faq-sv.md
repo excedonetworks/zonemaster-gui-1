@@ -1,15 +1,15 @@
-Zonemaster
+Excedo Zonemaster FAQ
 ==========
 
-1. [Vad är Excedo Zonemaster?](#q1)
-2. [Vem står bakom Excedo Zonemaster?](#q2)
-3. [Hur kan Excedo Zonemaster hjälpa mig?](#q3)
-4. [Excedo Zonemaster visar "Fel"/"Varning" när jag testar min domän, vad betyder det?](#q4)
-5. [Hur kan Excedo Zonemaster bedömma vad som är rätt eller fel konfigurerat?](#q5)
-6. [Kan Excedo Zonemaster hantera IPv6?](#q6)
-7. [Kan Excedo Zonemaster hantera DNSSEC?](#q7)
-8. [Vad skiljer Excedo Zonemaster från annan mjukvara som testar domäner?](#q8)
-9. [Excedo Zonemaster och integritet](#q9)
+1. [Vad är Zonemaster?](#q1)
+2. [Vem står bakom Zonemaster?](#q2)
+3. [Hur kan Zonemaster hjälpa mig?](#q3)
+4. [Zonemaster visar "Fel"/"Varning" när jag testar min domän, vad betyder det?](#q4)
+5. [Hur kan Zonemaster bedömma vad som är rätt eller fel konfigurerat?](#q5)
+6. [Kan Zonemaster hantera IPv6?](#q6)
+7. [Kan Zonemaster hantera DNSSEC?](#q7)
+8. [Vad skiljer Zonemaster från annan mjukvara som testar domäner?](#q8)
+9. [Zonemaster och integritet](#q9)
 10. [Varför kan jag inte testa min domän?](#q10)
 11. [Vilken typ av DNS-frågor genererar Zonemaster?](#q11)
 12. [Vad är ett odelegerat domäntest?](#q12)
@@ -17,14 +17,18 @@ Zonemaster
 
 Excedo Zonemaster
 ----------
-
 #### 1. Vad är Excedo Zonemaster? <a name="q1"></a>
 
-Excedo Zonemaster är ett program som är framtaget för att hjälpa människor att kontrollera, mäta och förhoppningsvis också bättre förstå hur DNS, domain name system, fungerar. Excedo Zonemaster består av 3 huvuddelar:
-    1) "Engine" - en testmotor som genomför alla DNS-tester.
-    2) "CLI" - ett kommandoradsgränssnitt till testmotorn.
-    3) "Backend" - en tjänst som låter dig köra zonmastertester och spara resultat med ett JSON-RPC API och en databas.
-    4) Webbgränssnitt mot "backend" och testmotorn.
+Excedo Zonemaster är ett program som är framtaget för att hjälpa människor att kontrollera, mäta och förhoppningsvis också bättre förstå hur DNS, domain name system, fungerar. 
+
+Excedo Zonemaster består av 3 huvuddelar:
+
+  1. "Engine" - en testmotor som genomför alla DNS-tester.
+  2. "CLI" - ett kommandoradsgränssnitt till testmotorn.
+  3. "Backend" - en tjänst som låter dig köra zonmastertester och spara resultat med ett
+      JSON-RPC API och en databas.
+  4. Webbgränssnitt mot "backend" och testmotorn.
+
 När en domän (även kallad zon) skickas till Excedo Zonemaster så kommer programmet att undersöka domänens hälsotillstånd genom att gå igenom DNS från roten (.) till TLD:n (toppdomänen, till exempel .NET) och till slut de DNS-servrar som innehåller information om den specificerade domänen (till exempel excedonet.net). Excedo Zonemaster utför även en hel del andra tester.
 
 När en domän (även kallad zon) skickas till Excedo Zonemaster så kommer programmet att undersöka domänens hälsotillstånd genom att gå igenom DNS från roten (.) till TLD:n (toppdomänen, till exempel .NET) och till slut de DNS-servrar som innehåller information om den specificerade domänen (till exempel excedonet.net). Excedo Zonemaster utför även en hel del andra tester.
